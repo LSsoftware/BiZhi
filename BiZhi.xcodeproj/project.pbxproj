@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		6C952B3A1B566C2500E91A7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C952B391B566C2500E91A7E /* AppDelegate.m */; };
 		6C952B3C1B566C2500E91A7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C952B3B1B566C2500E91A7E /* main.m */; };
-		6C952B3F1B566C2500E91A7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C952B3E1B566C2500E91A7E /* ViewController.m */; };
 		6C952B421B566C2500E91A7E /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C952B411B566C2500E91A7E /* Document.m */; };
 		6C952B441B566C2500E91A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C952B431B566C2500E91A7E /* Images.xcassets */; };
 		6C952B471B566C2500E91A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C952B451B566C2500E91A7E /* Main.storyboard */; };
 		6C952B531B566C2500E91A7E /* BiZhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C952B521B566C2500E91A7E /* BiZhiTests.m */; };
+		6CA36E6D1B61173A00B5C311 /* BZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA36E6C1B61173A00B5C311 /* BZTimer.m */; };
+		6CA36E701B611B9700B5C311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA36E6F1B611B9700B5C311 /* ViewController.m */; };
+		6CA36E731B611FC100B5C311 /* BZString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA36E751B611FC100B5C311 /* BZString.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +34,6 @@
 		6C952B381B566C2500E91A7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C952B391B566C2500E91A7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C952B3B1B566C2500E91A7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C952B3D1B566C2500E91A7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C952B3E1B566C2500E91A7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C952B401B566C2500E91A7E /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		6C952B411B566C2500E91A7E /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		6C952B431B566C2500E91A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -41,6 +41,12 @@
 		6C952B4C1B566C2500E91A7E /* BiZhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiZhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C952B511B566C2500E91A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C952B521B566C2500E91A7E /* BiZhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiZhiTests.m; sourceTree = "<group>"; };
+		6CA36E6B1B61173A00B5C311 /* BZTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZTimer.h; sourceTree = "<group>"; };
+		6CA36E6C1B61173A00B5C311 /* BZTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZTimer.m; sourceTree = "<group>"; };
+		6CA36E6E1B611B9700B5C311 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CA36E6F1B611B9700B5C311 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CA36E771B611FD300B5C311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BZString.strings; sourceTree = "<group>"; };
+		6CA36E781B611FD600B5C311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/BZString.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +88,14 @@
 		6C952B351B566C2500E91A7E /* BiZhi */ = {
 			isa = PBXGroup;
 			children = (
+				6CA36E6B1B61173A00B5C311 /* BZTimer.h */,
+				6CA36E6C1B61173A00B5C311 /* BZTimer.m */,
 				6C952B381B566C2500E91A7E /* AppDelegate.h */,
 				6C952B391B566C2500E91A7E /* AppDelegate.m */,
-				6C952B3D1B566C2500E91A7E /* ViewController.h */,
-				6C952B3E1B566C2500E91A7E /* ViewController.m */,
 				6C952B401B566C2500E91A7E /* Document.h */,
 				6C952B411B566C2500E91A7E /* Document.m */,
+				6CA36E6E1B611B9700B5C311 /* ViewController.h */,
+				6CA36E6F1B611B9700B5C311 /* ViewController.m */,
 				6C952B431B566C2500E91A7E /* Images.xcassets */,
 				6C952B451B566C2500E91A7E /* Main.storyboard */,
 				6C952B361B566C2500E91A7E /* Supporting Files */,
@@ -98,6 +106,7 @@
 		6C952B361B566C2500E91A7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CA36E751B611FC100B5C311 /* BZString.strings */,
 				6C952B371B566C2500E91A7E /* Info.plist */,
 				6C952B3B1B566C2500E91A7E /* main.m */,
 			);
@@ -203,6 +212,7 @@
 			files = (
 				6C952B441B566C2500E91A7E /* Images.xcassets in Resources */,
 				6C952B471B566C2500E91A7E /* Main.storyboard in Resources */,
+				6CA36E731B611FC100B5C311 /* BZString.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C952B421B566C2500E91A7E /* Document.m in Sources */,
-				6C952B3F1B566C2500E91A7E /* ViewController.m in Sources */,
+				6CA36E6D1B61173A00B5C311 /* BZTimer.m in Sources */,
 				6C952B3C1B566C2500E91A7E /* main.m in Sources */,
 				6C952B3A1B566C2500E91A7E /* AppDelegate.m in Sources */,
+				6CA36E701B611B9700B5C311 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +263,15 @@
 				6C952B461B566C2500E91A7E /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA36E751B611FC100B5C311 /* BZString.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA36E771B611FD300B5C311 /* en */,
+				6CA36E781B611FD600B5C311 /* Base */,
+			);
+			name = BZString.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +433,7 @@
 				6C952B581B566C2500E91A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C952B591B566C2500E91A7E /* Build configuration list for PBXNativeTarget "BiZhiTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +442,7 @@
 				6C952B5B1B566C2500E91A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

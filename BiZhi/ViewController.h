@@ -2,7 +2,7 @@
 //  ViewController.h
 //  BiZhi
 //
-//  Created by shangjin on 15/7/15.
+//  Created by shangjin on 15/7/23.
 //  Copyright (c) 2015年 shangjin. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : NSViewController
 
-
 @end
-

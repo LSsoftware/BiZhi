@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AE93C37-042A-406B-BCFF-E543678969B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BiZhi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>60E747C22C520B89D0A9BBC4FB662002798E7EC8</key>
+		<string>https://github.com/LSsoftware/BiZhi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BiZhi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>60E747C22C520B89D0A9BBC4FB662002798E7EC8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LSsoftware/BiZhi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>60E747C22C520B89D0A9BBC4FB662002798E7EC8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60E747C22C520B89D0A9BBC4FB662002798E7EC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BiZhi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

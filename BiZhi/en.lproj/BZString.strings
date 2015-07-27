@@ -1,0 +1,16 @@
+/* 
+  BZString.strings
+  BiZhi
+
+  Created by shangjin on 15/7/23.
+  Copyright (c) 2015年 shangjin. All rights reserved.
+*/
+"Your can open it in preference next time" = "Your can open it in preference next time";
+"The time is : " = "The time is : ";
+"hours"="hours";
+"minutes"="minutes";
+"seconds"="seconds";
+"second"="second";
+"set"="set";
+"Folder Path :"="Folder Path :";
+"Find Folder"="Find Folder";
