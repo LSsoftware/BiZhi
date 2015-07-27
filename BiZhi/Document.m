@@ -7,6 +7,7 @@
 //
 
 #import "Document.h"
+#import "AppDelegate.h"
 
 @interface Document ()
 
@@ -30,8 +31,17 @@
 + (BOOL)autosavesInPlace {
     return YES;
 }
-
+/**
+ * @author shangjin, 15-07-23 19:07:02
+ *
+ * @brief  做个设置页面
+    默认打开设置页面，nstimer为空，更换路径为空
+    重置设置页面后，nstimer停止，更换路径不动。
+    //设置路径后，循环搜索文件夹，然后放在一个归档里，同时搜索文件夹也放在归档里
+    //定时器设定后开始定时更换背景
+ */
 - (void)makeWindowControllers {
+    //显示设置vc
     // Override to return the Storyboard file name of the document.
     [self addWindowController:[[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"Document Window Controller"]];
 }
